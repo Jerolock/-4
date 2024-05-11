@@ -5,7 +5,9 @@ class Building:
         Building.total += 1
 
 
-house = Building()
-while house.total < 40:
-    house.total += 1
-print(house.total)
+town = []
+town_size = 40
+while len(town) < town_size:
+    new_house = Building()
+    town.append(new_house)
+print(Building.total)
