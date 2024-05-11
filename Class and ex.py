@@ -5,6 +5,7 @@ class Building:
         Building.total += 1
 
 
-while Building.total < 40:
-    Building.total += 1
-print(Building.total)
+house = Building()
+while house.total < 40:
+    house.total += 1
+print(house.total)
